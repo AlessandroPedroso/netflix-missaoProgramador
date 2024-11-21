@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+
+body{
+    background-color: black;
+}
+
+.imagem-topo{
+    height: 25px;
+}
+
+ul{
+    width: 95%;
+    height: 25px;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    z-index: 99;
+    top: 15px;
+    list-style: none;
+}
+
+.container-img{
+    
+    background-color: red;
+}
+
+.imagem-filmes{
+    width: 20%;
+
+}
+
+.capa{
+    position: absolute;
+    bottom: 15%;
+    left: 5%;
+    width: 50%;
+    z-index: 3;
+}
+
+.capa-titutlo{
+    color: white;
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.capa-descricao{
+    color: white;
+    font-size: 20px;
+}
+
+.link-assistir{
+
+    background-color: white;
+    color: black;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 4px;
+    
+}
+
+.link-info{
+    color: black;
+    background-color: rgba(255,255,255,0.35);
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 4px;
+    font-weight: bold;
+
+}
+
+.titulo-carrossel{
+    color: white;
+    font-weight: bold;
+}
+
+#carouselExampleControls{
+    position: absolute;
+    bottom: -230px;
+    padding-bottom: 20px;
+}
+
+#carouselExampleControls h2{
+    margin-left: 9.5%;
+}
+
+
+.carousel-item{
+    margin-left: 0 auto;
+    text-align: center;
+}
+
+/* video{
+    position: relative;
+    z-index: -99;
+} */
